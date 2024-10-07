@@ -45,6 +45,7 @@ rw_loop:
     call print
     jmp rw_loop
 .done:
+    call close
     call exit
 
 print:
